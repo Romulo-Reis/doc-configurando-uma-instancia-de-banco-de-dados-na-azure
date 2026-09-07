@@ -1,4 +1,4 @@
-# doc-configurando-uma-instancia-de-banco-de-dados-na-azure
+# Documentação técnica para a configurando de uma instancia de banco de dados na azure
 Este repositório contém a documentação técnica para a configuração de uma instância de banco de dados na azure.
 
 Para configurar uma instância de banco de dados na azure devemos seguir os seguintes passos:
