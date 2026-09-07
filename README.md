@@ -1,7 +1,7 @@
-# Documentação técnica para a configurando de uma instância de banco de dados na azure
-Este repositório contém a documentação técnica para a configuração de uma instância de banco de dados na azure.
+# Documentação técnica para a configuração de uma instância de banco de dados na Azure
+Este repositório contém a documentação técnica para a configuração de uma instância de banco de dados na Azure.
 
-Para configurar uma instância de banco de dados na azure devemos seguir os seguintes passos:
+Para configurar uma instância de banco de dados na Azure devemos seguir os seguintes passos:
 
 1. A partir da página inicial, clique em todos os serviços no menu lateral.
 
@@ -13,7 +13,7 @@ Para configurar uma instância de banco de dados na azure devemos seguir os segu
 
 3. Selecione a opção Instância Gerenciada de SQL do Azure.
 
-![Opção Instância Gerencida de SQL do Azure](images/img_3.png)
+![Opção Instância Gerenciada de SQL do Azure](images/img_3.png)
 
 4. Preencha os dados do formulário de configuração da instância.
 
@@ -35,7 +35,7 @@ Para configurar uma instância de banco de dados na azure devemos seguir os segu
 
 ![Método de autenticação](images/img_7.png)
 
-9. Defina o logon de administrador da Instância Gerenciada. Qualquer nome de usuário válido.
+9. Defina o logon de administrador da Instância Gerenciada, informando qualquer nome de usuário válido.
 10. Defina a senha.
 11. Confirme a senha definida.
 
@@ -51,7 +51,7 @@ Para configurar uma instância de banco de dados na azure devemos seguir os segu
 
 14. Configure o hardware de computação.
 
-![Hadware de computação](images/img_11.png)
+![Hardware de computação](images/img_11.png)
 
 15. Escolha um valor para a quantidade de vcores.
 
@@ -63,31 +63,31 @@ Para configurar uma instância de banco de dados na azure devemos seguir os segu
 
 17. Escolha uma licença para o SQL Server.
 
-![Licença para o SQL Serve](images/img_14.png)
+![Licença para o SQL Server](images/img_14.png)
 
 18. Configure o Backup (Redundância do armazenamento de backup).
 
 ![Redundância do armazenamento de backup](images/img_15.png)
 
-19. Clique no botão aplicar para salvar suas configurações e navegar de volta para página Criar Instância Gerenciada SQL do Azure.
+19. Clique no botão aplicar para salvar suas configurações e navegar de volta para página Criar Instância Gerenciada de SQL do Azure.
 
 ![Botão aplicar](images/img_16.png)
 
-20. Na página Criar Instância Gerenciada SQL do Azure, clique no botão Avançar: Rede. Preencha informações opcionais na guia Rede . Se você omitir essas informações, o portal aplicará as configurações padrão.
+20. Na página Criar Instância Gerenciada de SQL do Azure, clique no botão Avançar: Rede. Preencha informações opcionais na guia Rede. Se você omitir essas informações, o portal aplicará as configurações padrão.
 
 ![Botão Avançar: Rede](images/img_17.png)
 
-21. Na aba segurança, deixe as configurações na guia Segurança em seus valores padrão.
+21. Na guia Segurança, deixe as configurações em seus valores padrão.
 
-22. Selecione Examinar + criar para examinar suas escolhas antes de criar uma instância gerenciada de SQL. Ou defina mais configurações personalizadas selecionando Avançar: configurações adicionais
+22. Selecione Revisar + criar para examinar suas escolhas antes de criar uma instância gerenciada de SQL. Ou defina mais configurações personalizadas selecionando Avançar: configurações adicionais.
 
 23. Caso você clique em avançar para as configurações avançadas, preencha as informações opcionais na guia Configurações adicionais. Se você omitir essas informações, o portal aplicará as configurações padrão.
 
 24. Selecione Revisar + criar para examinar suas escolhas antes de criar uma instância gerenciada de SQL. Ou, então, configure as marcas do Azure selecionando Avançar: Marcas (recomendado).
 
-25. Caso você clique em avançar para configurar as marcas (Rótulos), adicione tags aos recursos no modelo do ARM (modelo do Azure Resource Manager). As marcas ajudam você a organizar logicamente seus recursos. Os valores de marca são mostrados nos relatórios de custo e permitem outras atividades de gerenciamento por marca. Considere pelo menos marcar sua nova instância gerenciada de SQL com a marca Proprietário para identificar quem criou e a marca Ambiente para identificar se esse sistema é Produção, Desenvolvimento etc. 
+25. Caso você clique em avançar para configurar as marcas (Rótulos), adicione tags aos recursos no modelo do ARM (modelo do Azure Resource Manager). As marcas ajudam você a organizar logicamente seus recursos. Os valores de marca são mostrados nos relatórios de custo e permitem outras atividades de gerenciamento por marca. Considere pelo menos marcar sua nova instância gerenciada de SQL com a marca Proprietário para identificar quem criou e a marca Ambiente para identificar se esse sistema é Produção, Desenvolvimento etc.
 
-26. Clique no Botão Revisar + criar para processeguir e examine suas escolhas.
+26. Clique no Botão Revisar + criar para prosseguir e examine suas escolhas.
 
 ![Botão Revisar + Criar](images/img_18.png)
 
